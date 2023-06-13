@@ -1,0 +1,36 @@
+“name”: “npm-init” —> Podemos ponerle un nombre sin embargo toma por defecto el de la carpeta.
+“version”: “1.0.0” —> Podemos cambiar segun el caso, dependiendo un cambio mayor o uno menor
+“description”:"" —> Podemos hacer una breve descripcion del proyecto.
+“entry point”: “(index.js)” —> Punto de entrada del proyecto.
+“test command”: —> Podemos incluir los comandos para validar nuestro codigo.
+“git repository”: —> Podemos incluir el repositorio para mantenerlo en la nube
+“keywords”: [“javascript”, “angular”, “node”] —> Que va a utilizar nuestro proyecto.
+“author”: "Alexa Pulido<pulidoaleXXXXXXX> —> Persona que crea el proyecto
+“license”: “MIT” —> Licencias, la mas utilizada es MIT, permite distribuir nuestro codigo.
+
+//Comandos básicos
+npm init : es para inicializar el npm
+npm init -y : es para crear el archivo npm pero por defecto
+npm install dependencia-name : n este comando es para descargar dependencias
+npm install dependencia-name eslint --save-dev : dependencia que solo va a ser utilizada en el entorno de desarrollo
+npm install dependencia-name --save : dependencia para ser llevada a producción
+npm install dependencia-name -g : es para descargar dependencia globales
+npm install dependencia-name -o : es para descargar dependencias opcionales
+npm list : nos permite ver nuestras dependencias instaladas
+npm list -g : es para ver solo las dependencias globales
+npm install package-name -o : es para cambiar su global,opcional,producción,desarrollo.
+npm install dependencia-name --dry-run : verifica que no haya conflictos o errores y luego instala la dependencia
+npm install dependencia-name@version/latest : es para actualizar a una version una dependencia en especifico 
+npm install : literal mente te descarga todas las dependencias que estén en el package.json
+
+//Dependencias
+moment : es una herramienta popular utilizada para manipular, analizar y formatear fechas y horas en JavaScript.
+eslint : es una herramienta de análisis estático de código para JavaScript. Su propósito principal es ayudar a
+identificar y reportar patrones problemáticos o errores en el código JavaScript.
+react : no tengo que decir nada
+
+
+
+//note :
+si pones el comando "npm install dependencia-name -o" literal mente estas cambiando si quieres que sea global,opcional,
+producción,desarrollo.
