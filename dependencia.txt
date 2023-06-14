@@ -22,6 +22,15 @@ npm install package-name -o : es para cambiar su global,opcional,producción,des
 npm install dependencia-name --dry-run : verifica que no haya conflictos o errores y luego instala la dependencia
 npm install dependencia-name@version/latest : es para actualizar a una version una dependencia en especifico 
 npm install : literal mente te descarga todas las dependencias que estén en el package.json
+npm run script : nos permite ejecutar nuestro script que creamos en nuestro package.json para ejecutar código
+npm outdate : es para las versiones actuales dde tus dependencias
+npm audit : te muestra si hay algunos conflictos
+npm audit fix : es para arreglar conflictos actualizando las dependencias
+npm audit fix --force : no importa si se rompe todo lo ba a actualizar todo npm
+npm run build :nos permite prepara el proyecto para producción y nos permite ver que paso
+npm run build --dd : lo mismo pero mas detallado
+npm ci : lo que hace es decirnos cuales serán las dependencias que dejaran de recibir mantenimiento 
+
 
 //Dependencias
 moment : es una herramienta popular utilizada para manipular, analizar y formatear fechas y horas en JavaScript.
@@ -29,7 +38,9 @@ eslint : es una herramienta de análisis estático de código para JavaScript. S
 identificar y reportar patrones problemáticos o errores en el código JavaScript.
 react : no tengo que decir nada
 
-
+//Descarga react con todo y las dependencias
+npx create-react-app -name-Carpeta : esto inicializa un proyecto de react y crea la carpeta lista para trabajar con todo y git 
+npm start : lo que hace es inicializar un servidor de react
 
 //note :
 si pones el comando "npm install dependencia-name -o" literal mente estas cambiando si quieres que sea global,opcional,
