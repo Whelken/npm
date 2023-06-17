@@ -22,14 +22,12 @@ npm install package-name -o : es para cambiar su global,opcional,producción,des
 npm install dependencia-name --dry-run : verifica que no haya conflictos o errores y luego instala la dependencia
 npm install dependencia-name@version/latest : es para actualizar a una version una dependencia en especifico 
 npm install : literal mente te descarga todas las dependencias que estén en el package.json
-npm run script : nos permite ejecutar nuestro script que creamos en nuestro package.json para ejecutar código
-npm outdate : es para las versiones actuales dde tus dependencias
-npm audit : te muestra si hay algunos conflictos
+npm run script : nos permite ejecutar nuestro script que creamos en nuestro package.json para ejecutar código "NOTA" : tienes que ir a tus packege.json y en la parte de script poner tu script agregarle node directorio donde esta tu code.
+npm outdate : es para que te muestre las ultimas versiones dde tus dependencias a las que tines que actuali
+npm audit : te muestra si hay algunos errores
 npm audit fix : es para arreglar conflictos actualizando las dependencias
 npm audit fix --force : no importa si se rompe todo lo ba a actualizar todo npm
-npm run build :nos permite prepara el proyecto para producción y nos permite ver que paso
-npm run build --dd : lo mismo pero mas detallado
-npm ci : lo que hace es decirnos cuales serán las dependencias que dejaran de recibir mantenimiento 
+npm ci : es como el (npm install) pero la diferencia es que installa las ultimas versiones es una buena practica 
 
 
 //Dependencias
@@ -45,3 +43,5 @@ npm start : lo que hace es inicializar un servidor de react
 //note :
 si pones el comando "npm install dependencia-name -o" literal mente estas cambiando si quieres que sea global,opcional,
 producción,desarrollo.
+
+no puedes hacer un npm publish si ya lo hiciste anterior mente almenos que terminen las 24H xd
